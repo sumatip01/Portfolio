@@ -143,7 +143,8 @@ body {
   }
   
   .work img {
-    width: 100%;
+    width: 50px;
+    height: 50px;
     border: 0 none;
     opacity: 0.8;
   }
@@ -164,7 +165,7 @@ body {
   
   .auth-image {
     float: left;
-    width: 200px;
+    width: 50px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
@@ -210,14 +211,11 @@ body {
     border: 0 none;
   }
 
-
   @media screen (max-width: 768px) {
     header
     header nav,
     header nav li,
     h1,
         float:none;
-        text-align:center;
-        width:50%;      
-}
-  
+        text-align:center;     
+    }
