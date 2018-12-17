@@ -3,8 +3,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: rgb(49, 42, 47);
-    background: url("../images/concrete_seamless.png");
-    background-color: rgb(247, 229, 232);
+   /* background: url("../images/concrete_seamless.png"); */
+    background-color: rgb(253, 249, 249);
   }
   
   * {
@@ -42,6 +42,7 @@ body {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
+    text-align: center;
     border-bottom: 3px solid #ddd;
   }
   
@@ -191,13 +192,16 @@ body {
   }
 
   #projects ul {
+    margin-left: 20px;
     margin-bottom: 20px;
   }
   
   #projects li {
+    margin-left: 20px;
     margin-bottom: 10px;
+  }
   
-  label,
+  label:
   input[type=text],
   input[type=email],
   textarea {
